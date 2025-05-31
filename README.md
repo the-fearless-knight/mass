@@ -11,6 +11,9 @@ The OWASP Amass link: <a href="https://github.com/owasp-amass/amass">https://git
 * Bruteforces subdomains via the 'subdomains-top1million-5000.txt' in Seclists (Change it if needed)
 * Doesn't rely on public data, but rather interacts with the target
 
+# What will you need:
+* python3, fping and amass (since this is just a wrapper, not a full program)
+
 # What will be updated:
 The port input() function
 
