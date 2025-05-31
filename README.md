@@ -9,7 +9,7 @@ The OWASP Amass link: <a href="https://github.com/owasp-amass/amass">https://git
 
 * Checks if the target is online (via fping)
 * Bruteforces subdomains via the 'subdomains-top1million-5000.txt' in Seclists (Change it if needed)
-* Doesn't rely on public data, but rather interacts with the target
+* Interacts directly with the target, instead of relying on public data
 
 # What will you need:
 * python3, fping and amass (since this is just a wrapper, not a full program)
