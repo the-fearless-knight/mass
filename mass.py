@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# A script to ask for IP for the amass tool and check if it is alive
+# A script to ask for domain for the amass tool and check if it is alive
 
 import os
 
