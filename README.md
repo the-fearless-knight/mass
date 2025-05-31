@@ -14,9 +14,6 @@ The OWASP Amass link: <a href="https://github.com/owasp-amass/amass">https://git
 # What will you need:
 * python3, fping and amass (since this is just a wrapper, not a full program)
 
-# One-liner install (Assuming no other files hold this name, make sure ~/.local/bin is in $PATH) :
-```cd /tmp && curl https://raw.githubusercontent.com/Omar-ahmed-1/mass/main/mass.py -o mass && chmod +x mass && mv mass ~/.local/bin/mass && if [ "$SHELL" = "/usr/bin/zsh" ]; then source ~/.zshrc; elif [ "$SHELL" = "/usr/bin/bash" ]; then source ~/.bashrc; fi && clear && echo "Now you can run 'mass'." && cd```
-
 # What will be updated:
 The port input() function
 
@@ -25,6 +22,11 @@ The port input() function
 2. Copy it to /sbin (or whatever you like, just make sure it is in $PATH)
 3. Reopen the terminal
 4. Type mass, then enter the domain and the ports (be sure not to put spaces between ports!)
+
+
+# One-liner install (Assuming no other files hold this name, make sure ~/.local/bin is in $PATH) :
+```cd /tmp && curl https://raw.githubusercontent.com/Omar-ahmed-1/mass/main/mass.py -o mass && chmod +x mass && mv mass ~/.local/bin/mass && if [ "$SHELL" = "/usr/bin/zsh" ]; then source ~/.zshrc; elif [ "$SHELL" = "/usr/bin/bash" ]; then source ~/.bashrc; fi && clear && echo "Now you can run 'mass'." && cd```
+
 
 # Disclaimer:
   <h3 style="color:grey;">Only use it for targets you have permission to test, I'm not responsible for any damage or misuse of the tool or the script.</h3>
