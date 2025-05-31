@@ -17,7 +17,7 @@ with open("/tmp/.amass.tmp", "r") as f:
 if f"{domain} is alive" in output:
 	pass
 else:
-	print(f"{domain} is not reachable, QUITING!!")
+	print(f"{domain} is not reachable. Exiting.")
 	exit(1)
 
 
