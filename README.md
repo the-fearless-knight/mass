@@ -20,7 +20,8 @@ The port input() function
 # How to use it:
 1. Download the script, and do chmod +x
 2. Copy it to /sbin (or whatever you like, just make sure it is in $PATH)
-3. reopen the terminal
+3. Reopen the terminal
+4. Type mass, then enter the domain and the ports (be sure not to put spaces between ports!)
 
 # Disclaimer:
   <h3 style="color:grey;">Only use it for targets you have permission to test, I'm not responsible for any damage or misuse of the tool or the script.</h3>
