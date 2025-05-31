@@ -25,7 +25,7 @@ The port input() function
 
 
 # One-liner install (Assuming no other files hold this name, make sure ~/.local/bin is in $PATH) :
-```cd /tmp && curl https://raw.githubusercontent.com/Omar-ahmed-1/mass/main/mass.py -o mass && chmod +x mass && mv mass ~/.local/bin/mass && if [ "$SHELL" = "/usr/bin/zsh" ]; then source ~/.zshrc; elif [ "$SHELL" = "/usr/bin/bash" ]; then source ~/.bashrc; fi && clear && echo "Now you can run 'mass'." && cd```
+```cd ~/.local/bin && curl https://raw.githubusercontent.com/Omar-ahmed-1/mass/main/mass.py -o mass && chmod +x mass && if [ "$SHELL" = "/usr/bin/zsh" ]; then source ~/.zshrc; elif [ "$SHELL" = "/usr/bin/bash" ]; then source ~/.bashrc; fi && cd && clear && echo "Now you can run 'mass'."```
 
 
 # Disclaimer:
