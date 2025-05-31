@@ -7,9 +7,9 @@ The OWASP Amass link: <a href="https://github.com/owasp-amass/amass">https://git
 
 # What this script does:
 
-Checks if the target is online (via fping)
-Bruteforces subdomains via the 'subdomains-top1million-5000.txt' in Seclists (Change it if needed)
-Doesn't rely on public data, but rather interacts with the target
+* Checks if the target is online (via fping)
+* Bruteforces subdomains via the 'subdomains-top1million-5000.txt' in Seclists (Change it if needed)
+* Doesn't rely on public data, but rather interacts with the target
 
 # What will be updated:
 The port input() function
