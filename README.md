@@ -18,7 +18,7 @@ The OWASP Amass link: <a href="https://github.com/owasp-amass/amass">https://git
 The port input() function
 
 # How to use it:
-1. Download the script, and do chmod +x
+1. Download the script, rename it to 'mass' and do chmod +x
 2. Copy it to /sbin (or whatever you like, just make sure it is in $PATH)
 3. Reopen the terminal
 4. Type mass, then enter the domain and the ports (be sure not to put spaces between ports!)
