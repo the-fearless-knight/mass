@@ -20,4 +20,4 @@ The port input() function
 3. reopen the terminal
 
 4. # Disclaimer:
-5. <h3 style="color:grey;">Only use it for targets you have permission to test, I'm and the amass developers not responsible for any damage or misuse of the tool or the script</h3>
+5. <h3 style="color:grey;">Only use it for targets you have permission to test, I'm not responsible for any damage or misuse of the tool or the script.</h3>
