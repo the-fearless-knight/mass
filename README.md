@@ -14,7 +14,8 @@ The OWASP Amass link: <a href="https://github.com/owasp-amass/amass">https://git
 # What will you need:
 * python3, fping and amass (since this is just a wrapper, not a full program)
 
-# One-liner install (Assuming no other files hold this name, make sure ~/.local/bin is in $PATH) : ```cd /tmp && curl -O https://raw.githubusercontent.com/Omar-ahmed-1/mass/main/mass.py && mv mass.py mass && chmod +x mass && mv mass ~/.local/bin/mass && if [ "$SHELL" = "/usr/bin/zsh" ]; then source ~/.zshrc; elif [ "$SHELL" = "/usr/bin/bash" ]; then source ~/.bashrc; fi && mass ```
+# One-liner install (Assuming no other files hold this name, make sure ~/.local/bin is in $PATH) :
+```cd /tmp && curl -O https://raw.githubusercontent.com/Omar-ahmed-1/mass/main/mass.py && mv mass.py mass && chmod +x mass && mv mass ~/.local/bin/mass && if [ "$SHELL" = "/usr/bin/zsh" ]; then source ~/.zshrc; elif [ "$SHELL" = "/usr/bin/bash" ]; then source ~/.bashrc; fi && mass ```
 
 # What will be updated:
 The port input() function
