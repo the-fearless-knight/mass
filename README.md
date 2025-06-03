@@ -24,7 +24,7 @@ The port input() function
 4. Type mass, then enter the domain and the ports (be sure not to put spaces between ports!)
 
 
-# One-liner install (Assuming no other files hold this name) :
+# One-liner install (Assuming no other files hold this name in ~/.local/bin) :
 ```cd ~/.local/bin && curl https://raw.githubusercontent.com/Omar-ahmed-1/mass/main/mass.py -o mass && chmod +x mass && if [ "$SHELL" = "/usr/bin/zsh" ]; then echo "export PATH=~/.local/bin:$PATH" >> ~/.zshrc && source ~/.zshrc; elif [ "$SHELL" = "/usr/bin/bash" ]; then echo "export PATH=~/.local/bin:$PATH" >> ~/.bashrc && source ~/.bashrc; fi && cd && clear && echo "Now you can run 'mass'."```
 
 
