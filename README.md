@@ -19,13 +19,13 @@ The port input() function
 
 # How to use it:
 1. Download the script, rename it to 'mass' and do chmod +x
-2. Copy it to /sbin (or whatever you like, just make sure it is in $PATH)
+2. Copy it to /usr/local/bin (or whatever you like, just make sure it is in $PATH)
 3. Reopen the terminal
 4. Type mass, then enter the domain and the ports (be sure not to put spaces between ports!)
 
 
-# One-liner install (Assuming no other files hold this name, make sure ~/.local/bin is in $PATH) :
-```cd ~/.local/bin && curl https://raw.githubusercontent.com/Omar-ahmed-1/mass/main/mass.py -o mass && chmod +x mass && if [ "$SHELL" = "/usr/bin/zsh" ]; then source ~/.zshrc; elif [ "$SHELL" = "/usr/bin/bash" ]; then source ~/.bashrc; fi && cd && clear && echo "Now you can run 'mass'."```
+# One-liner install (Assuming no other files hold this name) :
+```cd ~/.local/bin && curl https://raw.githubusercontent.com/Omar-ahmed-1/mass/main/mass.py -o mass && chmod +x mass && if [ "$SHELL" = "/usr/bin/zsh" ]; then echo "export PATH=~/.local/bin:$PATH" >> ~/.zshrc && source ~/.zshrc; elif [ "$SHELL" = "/usr/bin/bash" ]; then echo "export PATH=~/.local/bin:$PATH" >> ~/.bashrc && source ~/.bashrc; fi && cd && clear && echo "Now you can run 'mass'."```
 
 
 # Disclaimer:
