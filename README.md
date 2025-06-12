@@ -1,7 +1,7 @@
-<h3>This script is still in alpha stage, it will be improved soon.</H2>
+<h3>This script is still in alpha stage, it will be improved soon.</h3>
 
-<h2>Mass</h2>
-<h4>A wrapper script for the amass tool to enumerate subdomains</h4>
+## Mass
+<h4>A wrapper script for the amass tool to enumerate subdomains.</h4>
 
 
 The OWASP Amass link: <a href="https://github.com/owasp-amass/amass">https://github.com/owasp-amass/amass</a>
@@ -12,22 +12,24 @@ The OWASP Amass link: <a href="https://github.com/owasp-amass/amass">https://git
 * Bruteforces subdomains via the 'subdomains-top1million-5000.txt' in Seclists (Change it if needed)
 * Interacts directly with the target (like directory enumeration), instead of relying on public data
 
-# What will you need:
+## What will you need:
 * python3, fping and amass (since this is just a wrapper, not a full program)
 
-# What will be updated:
+## What will be updated:
 The port input() function
 
-# How to use it:
-1. Download the script, rename it to 'mass' and do chmod +x
-2. Copy it to /usr/local/bin (or whatever you like, just make sure it is in $PATH)
-3. Reopen the terminal
+## How to use it (ignore 1-3 if already installed):
+1. Download the script, rename it to 'mass' and make it executeable (chmod +x)
+2. Copy it to /usr/local/bin (or whatever you like, just make sure it is in $PATH, 'echo $PATH' to see, if not type 'export PATH=$PATH:/usr/local/bin')
+3. Reopen the terminal (or 'source ~/.bashrc' for bash and 'source ~/.zshrc')
 4. Type mass, then enter the domain and the ports (be sure not to put spaces between ports!)
 
 
-# One-liner install (Assuming no other files hold this name in ~/.local/bin) :
-```cd ~/.local/bin && curl https://raw.githubusercontent.com/Omar-ahmed-1/mass/main/mass.py -o mass && chmod +x mass && if [ "$SHELL" = "/usr/bin/zsh" ]; then echo "export PATH=~/.local/bin:$PATH" >> ~/.zshrc && source ~/.zshrc; elif [ "$SHELL" = "/usr/bin/bash" ]; then echo "export PATH=~/.local/bin:$PATH" >> ~/.bashrc && source ~/.bashrc; fi && cd && clear && echo "Now you can run 'mass'."```
+## One-liner install (Assuming no other files hold this name in ~/.local/bin) :
+```
+cd ~/.local/bin && curl https://raw.githubusercontent.com/Omar-ahmed-1/mass/main/mass.py -o mass && chmod +x mass && if [ "$SHELL" = "/usr/bin/zsh" ]; then echo "export PATH=~/.local/bin:$PATH" >> ~/.zshrc && source ~/.zshrc; elif [ "$SHELL" = "/usr/bin/bash" ]; then echo "export PATH=~/.local/bin:$PATH" >> ~/.bashrc && source ~/.bashrc; fi && cd && clear && echo "Now you can run 'mass'."
+```
 
 
 # Disclaimer:
-  <h3 style="color:grey;">Only use it for targets you have permission to test, I'm not responsible for any damage or misuse of the tool or the script.</h3>
+  <h3 style="color:darkred;">Only use it for targets you have permission to test, I'm not responsible for any damage or misuse of the tool or the script.</h3>
