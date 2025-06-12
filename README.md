@@ -1,7 +1,7 @@
 <h3>This script is still in alpha stage, it will be improved soon.</h3>
 
 ## Mass
-<h4>A wrapper script for the Amass tool to enumerate subdomains.</h4>
+<h4>A wrapper script for the amass tool to enumerate subdomains.</h4>
 
 
 The OWASP Amass link: <a href="https://github.com/owasp-amass/amass">https://github.com/owasp-amass/amass</a>
@@ -17,6 +17,8 @@ The OWASP Amass link: <a href="https://github.com/owasp-amass/amass">https://git
 
 ## What will be updated:
 The port input() function
+
+
 
 ## How to use it (ignore 1-3 if already installed):
 1. Download the script, rename it to 'mass' and make it executeable (chmod +x)
