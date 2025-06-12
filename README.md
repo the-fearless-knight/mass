@@ -1,7 +1,7 @@
 <h3>This script is still in alpha stage, it will be improved soon.</h3>
 
 ## Mass
-<h4>A wrapper script for the amass tool to enumerate subdomains.</h4>
+<h4>A wrapper script for the Amass tool to enumerate subdomains.</h4>
 
 
 The OWASP Amass link: <a href="https://github.com/owasp-amass/amass">https://github.com/owasp-amass/amass</a>
@@ -9,7 +9,7 @@ The OWASP Amass link: <a href="https://github.com/owasp-amass/amass">https://git
 ## What this script does:
 
 * Checks if the target is online (via fping)
-* Bruteforces subdomains via the 'subdomains-top1million-5000.txt' in Seclists (Change it if needed)
+* Bruteforces subdomains using 'subdomains-top1million-5000.txt' in Seclists (Change it if needed)
 * Interacts directly with the target (like directory enumeration), instead of relying on public data
 
 ## What will you need:
