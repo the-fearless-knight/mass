@@ -1,7 +1,7 @@
-<H2>This script is still in alpha stage, it will be improved soon.</H2>
+<h3>This script is still in alpha stage, it will be improved soon.</H2>
 
 <h2>Mass</h2>
-A wrapper script for the amass tool to enumerate subdomains\n
+<h4>A wrapper script for the amass tool to enumerate subdomains</h4>
 
 
 The OWASP Amass link: <a href="https://github.com/owasp-amass/amass">https://github.com/owasp-amass/amass</a>
