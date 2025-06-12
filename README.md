@@ -34,4 +34,4 @@ cd ~/.local/bin && curl https://raw.githubusercontent.com/Omar-ahmed-1/mass/main
 
 
 # Disclaimer:
-  <h3 style="color:grey;">Only use it for targets you have permission to test, I'm not responsible for any damage or misuse of the tool or the script.</h3>
+### Only use it for targets you have permission to test, I'm not responsible for any damage or misuse of the tool or the script.
