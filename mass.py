@@ -22,4 +22,4 @@ else:
 
 print("  enumerating...")
 
-os.system(f"amass enum -v -active-norecursive -brute -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt -d {domain} -p {port} -iface {interface} {extra_args}") 
+os.system(f"amass enum -v -active -norecursive -brute -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt -d {domain} -p {port} -iface {interface} {extra_args}") 
