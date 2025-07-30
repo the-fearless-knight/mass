@@ -33,7 +33,7 @@ The port input() function
       example.com
       80,443
       ```
-, be sure not to put spaces but ',' between ports!
+   , be sure not to put spaces but ',' between ports!
 
 
 ## One-liner install (Assuming no other files hold this name in ~/.local/bin) :
