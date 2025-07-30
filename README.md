@@ -15,7 +15,7 @@ The OWASP Amass link: <a href="https://github.com/owasp-amass/amass">https://git
 It can't be used for internal/private targets
 
 ## What will you need:
-* python3, fping and amass with `seclists` for sure (since this is just a wrapper, not a full program)
+* `python3`, `fping` and `amass` with `seclists` for sure (since this is just a wrapper, not a full program)
 
 ## What will be updated:
 The port input() function
