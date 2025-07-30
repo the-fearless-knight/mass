@@ -38,7 +38,7 @@ The port input() function
 
 ## One-liner install (Assuming no other files hold this name in ~/.local/bin) :
 ```
-cd ~/.local/bin && curl https://raw.githubusercontent.com/the-fearless-knight/mass/main/mass.py -o mass && chmod +x mass && if [ "$SHELL" = "/usr/bin/zsh" ]; then echo "export PATH=~/.local/bin:$PATH" >> ~/.zshrc && source ~/.zshrc; elif [ "$SHELL" = "/usr/bin/bash" ]; then echo "export PATH=~/.local/bin:$PATH" >> ~/.bashrc && source ~/.bashrc; fi && cd && clear && echo "Now you can run 'mass'."
+cd ~/.local/bin && curl https://raw.githubusercontent.com/the-fearless-knight/mass/refs/heads/main/mass.py -o mass && chmod +x mass && if [ "$SHELL" = "/usr/bin/zsh" ]; then echo "export PATH=~/.local/bin:$PATH" >> ~/.zshrc && source ~/.zshrc; elif [ "$SHELL" = "/usr/bin/bash" ]; then echo "export PATH=~/.local/bin:$PATH" >> ~/.bashrc && source ~/.bashrc; fi && cd && clear && echo "Now you can run 'mass'."
 ```
 
 
