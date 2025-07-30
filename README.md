@@ -33,7 +33,6 @@ The port input() function
       example.com
       80,443
       eth0
-      
       ```
    , be sure not to put spaces but ',' between ports!
 
