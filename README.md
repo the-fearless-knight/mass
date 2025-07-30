@@ -32,6 +32,8 @@ The port input() function
       mass
       example.com
       80,443
+      eth0
+      
       ```
    , be sure not to put spaces but ',' between ports!
 
