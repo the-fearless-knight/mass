@@ -23,10 +23,10 @@ The port input() function
 
 
 ## How to use it (ignore 1-3 if already installed):
-1. Download the script, rename it to 'mass' and make it executeable (chmod +x)
-2. Copy it to /usr/local/bin (or whatever you like, just make sure it is in $PATH, 'echo $PATH' to see, if not type 'export PATH=$PATH:/usr/local/bin')
-3. Reopen the terminal (or 'source ~/.bashrc' for bash and 'source ~/.zshrc' for zsh)
-4. Type mass, then enter the domain and the ports ,e.g:
+1. Download the script, rename it to 'mass' and make it executeable (`chmod +x`)
+2. Copy it to /usr/local/bin (or whatever you like, just make sure it is in $PATH, '`echo $PATH`' to see, if not type '`export PATH=$PATH:/usr/local/bin`')
+3. Reopen the terminal (or '`source ~/.bashrc`' for bash and '`source ~/.zshrc' for zsh`)
+4. Type `mass`, then enter the domain and the ports ,e.g:
 
       ```
       mass
